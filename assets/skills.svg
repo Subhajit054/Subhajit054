@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520">
+<defs>
+ <radialGradient id="b"><stop stop-color="#101a3d"/><stop offset="1" stop-color="#050816"/></radialGradient>
+ <linearGradient id="n"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+ <style>.t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.h{font-weight:800;fill:#f8fafc}.s{fill:#cbd5e1}.x{fill:#94a3b8}</style>
+</defs>
+<rect width="1400" height="520" rx="24" fill="url(#b)"/>
+<g stroke="#263556" opacity=".55"><path d="M100 100H1300M100 260H1300M100 420H1300"/><path d="M260 40V480M520 40V480M780 40V480M1040 40V480"/></g>
+<g fill="none" stroke="url(#n)" stroke-width="3" opacity=".75">
+ <path d="M700 260L310 130M700 260L470 390M700 260L1090 130M700 260L930 390"/>
+ <path d="M700 260L700 80M700 260L700 450"/>
+</g>
+<circle cx="700" cy="260" r="92" fill="#08142c" stroke="url(#n)" stroke-width="5"/>
+<circle cx="700" cy="260" r="72" fill="none" stroke="#00e5ff" stroke-opacity=".35" stroke-width="2"/>
+<text x="700" y="250" text-anchor="middle" class="t h" font-size="28">SUBHAJIT</text><text x="700" y="278" text-anchor="middle" class="t s" font-size="15">AI × CODE × WEB3</text>
+<g class="t" text-anchor="middle">
+ <g><circle cx="310" cy="130" r="58" fill="#0b1731" stroke="#00e5ff" stroke-width="2"/><text x="310" y="125" class="h" font-size="18">AI / ML</text><text x="310" y="150" class="x" font-size="11">PYTORCH • CV • NLP</text></g>
+ <g><circle cx="470" cy="390" r="58" fill="#0b1731" stroke="#8b5cf6" stroke-width="2"/><text x="470" y="385" class="h" font-size="18">GENAI</text><text x="470" y="410" class="x" font-size="11">RAG • LLM • VECTOR DB</text></g>
+ <g><circle cx="1090" cy="130" r="58" fill="#0b1731" stroke="#ec4899" stroke-width="2"/><text x="1090" y="125" class="h" font-size="18">FULL STACK</text><text x="1090" y="150" class="x" font-size="11">REACT • NEXT • FASTAPI</text></g>
+ <g><circle cx="930" cy="390" r="58" fill="#0b1731" stroke="#22c55e" stroke-width="2"/><text x="930" y="385" class="h" font-size="18">WEB3</text><text x="930" y="410" class="x" font-size="11">SOLIDITY • ETHEREUM</text></g>
+ <g><circle cx="700" cy="80" r="42" fill="#0b1731" stroke="#06b6d4" stroke-width="2"/><text x="700" y="85" class="h" font-size="14">CORE</text></g>
+ <g><circle cx="700" cy="450" r="42" fill="#0b1731" stroke="#f59e0b" stroke-width="2"/><text x="700" y="455" class="h" font-size="14">SYSTEMS</text></g>
+</g>
+</svg>
