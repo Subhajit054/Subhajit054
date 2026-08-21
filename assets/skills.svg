@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070b14"/><stop offset=".5" stop-color="#0b1020"/><stop offset="1" stop-color="#170b24"/></linearGradient>
+ <linearGradient id="cyan" x2="1"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+ <linearGradient id="pink" x2="1"><stop stop-color="#ec4899"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#25304a" stroke-opacity=".28"/></pattern>
+ <style>.m{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.h{font-weight:800;letter-spacing:2px}.s{fill:#94a3b8;font-size:14px}.t{fill:#e2e8f0;font-size:18px}.b{fill:#f8fafc;font-size:25px}.c{fill:#00e5ff}.p{fill:#ec4899}.v{fill:#a78bfa}</style>
+</defs>
+<rect width="1400" height="780" rx="24" fill="url(#bg)"/><rect width="1400" height="780" rx="24" fill="url(#grid)"/>
+<circle cx="190" cy="150" r="170" fill="#00e5ff" opacity=".08" filter="url(#glow)"/><circle cx="1190" cy="600" r="220" fill="#a855f7" opacity=".08" filter="url(#glow)"/>
+<text x="55" y="65" class="m h b">NEURAL STACK // SYSTEM MAP</text><text x="55" y="92" class="m s">AI + SOFTWARE + WEB3</text>
+<g stroke="url(#cyan)" stroke-width="2" opacity=".7" fill="none"><path d="M700 190V270M700 360V440M700 530V610"/><path d="M700 270H340M700 270H1060M700 440H340M700 440H1060M700 610H340M700 610H1060"/></g>
+<g class="m" text-anchor="middle">
+ <rect x="520" y="115" width="360" height="90" rx="18" fill="#101827" stroke="#00e5ff"/><text x="700" y="150" class="c h" font-size="15">01 / ARTIFICIAL INTELLIGENCE</text><text x="700" y="182" class="t">ML · DL · CV · NLP · GENAI · LLM</text>
+ <rect x="105" y="225" width="470" height="135" rx="18" fill="#101827" stroke="#24334e"/><text x="340" y="260" class="p h" font-size="15">02 / INTELLIGENCE LAYER</text><text x="340" y="295" class="t">PyTorch · TensorFlow · OpenCV</text><text x="340" y="325" class="t">RAG · Embeddings · Vector DB</text><text x="340" y="350" class="s">LangChain · LangGraph · Transformers</text>
+ <rect x="825" y="225" width="470" height="135" rx="18" fill="#101827" stroke="#24334e"/><text x="1060" y="260" class="v h" font-size="15">03 / APPLICATION ENGINEERING</text><text x="1060" y="295" class="t">React · Next.js · TypeScript</text><text x="1060" y="325" class="t">FastAPI · REST · Cloud · Deployment</text><text x="1060" y="350" class="s">System Design · Databases · APIs</text>
+ <rect x="105" y="395" width="470" height="135" rx="18" fill="#101827" stroke="#24334e"/><text x="340" y="430" class="c h" font-size="15">04 / CORE ENGINEERING</text><text x="340" y="465" class="t">Python · C++ · Java · JavaScript</text><text x="340" y="495" class="t">DSA · OOP · DBMS · OS</text><text x="340" y="520" class="s">Software Engineering · Architecture</text>
+ <rect x="825" y="395" width="470" height="135" rx="18" fill="#101827" stroke="#24334e"/><text x="1060" y="430" class="p h" font-size="15">05 / WEB3 INFRASTRUCTURE</text><text x="1060" y="465" class="t">Solidity · Ethereum · Smart Contracts</text><text x="1060" y="495" class="t">ethers.js · MetaMask · dApps</text><text x="1060" y="520" class="s">Ownership · Verification · Trust</text>
+ <rect x="520" y="575" width="360" height="90" rx="18" fill="#101827" stroke="url(#cyan)"/><text x="700" y="610" class="c h" font-size="15">SYSTEM OUTPUT</text><text x="700" y="642" class="t">INTELLIGENT · SCALABLE · TRUSTED</text>
+</g>
+<text x="55" y="735" class="m s">I don't collect technologies — I design systems where each technology earns its place.</text>
+</svg>
