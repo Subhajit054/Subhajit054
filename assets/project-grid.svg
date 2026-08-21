@@ -1,30 +1,390 @@
-<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
-<rect width="1200" height="210" rx="18" fill="#0b1018"/>
-<g font-family="Arial, sans-serif">
-<text x="50" y="40" fill="#94a3b8" font-size="12" letter-spacing="4">MISSION CONTROL</text>
-<g transform="translate(40,65)">
-<rect width="255" height="105" rx="14" fill="#111a25" stroke="#00e5ff" opacity=".95"/>
-<text x="22" y="35" fill="#ff3d9a" font-size="18" font-weight="800">🩸 BLOODGRID</text>
-<text x="22" y="60" fill="#cbd5e1" font-size="12">BLOCKCHAIN × HEALTHCARE</text>
-<text x="22" y="83" fill="#64748b" font-size="11">Real-time emergency systems</text>
-</g>
-<g transform="translate(315,65)">
-<rect width="255" height="105" rx="14" fill="#111a25" stroke="#8b5cf6"/>
-<text x="22" y="35" fill="#f8fafc" font-size="18" font-weight="800">🛰️ SATELLITE AI</text>
-<text x="22" y="60" fill="#cbd5e1" font-size="12">DEEP LEARNING × VISION</text>
-<text x="22" y="83" fill="#64748b" font-size="11">Satellite image intelligence</text>
-</g>
-<g transform="translate(590,65)">
-<rect width="255" height="105" rx="14" fill="#111a25" stroke="#ff3d9a"/>
-<text x="22" y="35" fill="#f8fafc" font-size="18" font-weight="800">🔐 DOCUMENT VAULT</text>
-<text x="22" y="60" fill="#cbd5e1" font-size="12">BLOCKCHAIN × SECURITY</text>
-<text x="22" y="83" fill="#64748b" font-size="11">Ownership & verification</text>
-</g>
-<g transform="translate(865,65)">
-<rect width="255" height="105" rx="14" fill="#111a25" stroke="#22c55e"/>
-<text x="22" y="35" fill="#f8fafc" font-size="18" font-weight="800">🎨 CRAFTS MARKET</text>
-<text x="22" y="60" fill="#cbd5e1" font-size="12">FULL-STACK × E-COMMERCE</text>
-<text x="22" y="83" fill="#64748b" font-size="11">Rural creator marketplace</text>
-</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="520"
+     viewBox="0 0 1200 520">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00eaff"/>
+      <stop offset="100%" stop-color="#4d7cff"/>
+    </linearGradient>
+
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff3cac"/>
+      <stop offset="100%" stop-color="#784cff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <pattern id="grid"
+             width="40"
+             height="40"
+             patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#243044"
+            stroke-width="1"
+            opacity=".35"/>
+    </pattern>
+
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1200" height="520" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="22" fill="url(#grid)"/>
+
+  <!-- HEADER -->
+  <text x="60"
+        y="65"
+        fill="#6deeff"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="4">
+    PROJECT // SYSTEM ATLAS
+  </text>
+
+  <text x="60"
+        y="102"
+        fill="#ffffff"
+        font-family="Arial, sans-serif"
+        font-size="34"
+        font-weight="700">
+    SYSTEMS I BUILD
+  </text>
+
+  <text x="60"
+        y="132"
+        fill="#8c9bb3"
+        font-family="monospace"
+        font-size="14">
+    AI × SOFTWARE × BLOCKCHAIN
+  </text>
+
+  <!-- PROJECT 01 -->
+  <g transform="translate(60 175)">
+
+    <rect width="330"
+          height="270"
+          rx="18"
+          fill="#0d1420"
+          stroke="#26364c"
+          stroke-width="1.5"/>
+
+    <rect width="330"
+          height="4"
+          rx="2"
+          fill="url(#cyan)"/>
+
+    <circle cx="28" cy="32" r="7" fill="#00eaff" filter="url(#glow)"/>
+
+    <text x="48"
+          y="39"
+          fill="#ffffff"
+          font-family="Arial"
+          font-size="21"
+          font-weight="700">
+      BLOODGRID
+    </text>
+
+    <text x="25"
+          y="76"
+          fill="#00eaff"
+          font-family="monospace"
+          font-size="12">
+      BLOCKCHAIN / HEALTHCARE
+    </text>
+
+    <text x="25"
+          y="112"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      Emergency blood-response
+    </text>
+
+    <text x="25"
+          y="133"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      infrastructure concept.
+    </text>
+
+    <line x1="25"
+          y1="158"
+          x2="305"
+          y2="158"
+          stroke="#26364c"/>
+
+    <text x="25"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      REACT
+    </text>
+
+    <text x="95"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      WEB3
+    </text>
+
+    <text x="155"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      SOLIDITY
+    </text>
+
+    <text x="25"
+          y="220"
+          fill="#667892"
+          font-family="monospace"
+          font-size="11">
+      REAL-TIME SYSTEMS
+    </text>
+
+    <circle cx="270" cy="225" r="25"
+            fill="none"
+            stroke="#00eaff"
+            opacity=".25"/>
+
+    <circle cx="270" cy="225" r="5"
+            fill="#00eaff"
+            filter="url(#glow)"/>
+
+  </g>
+
+
+  <!-- PROJECT 02 -->
+  <g transform="translate(435 175)">
+
+    <rect width="330"
+          height="270"
+          rx="18"
+          fill="#0d1420"
+          stroke="#26364c"
+          stroke-width="1.5"/>
+
+    <rect width="330"
+          height="4"
+          rx="2"
+          fill="url(#pink)"/>
+
+    <circle cx="28" cy="32" r="7"
+            fill="#ff4fba"
+            filter="url(#glow)"/>
+
+    <text x="48"
+          y="39"
+          fill="#ffffff"
+          font-family="Arial"
+          font-size="21"
+          font-weight="700">
+      SATELLITE AI
+    </text>
+
+    <text x="25"
+          y="76"
+          fill="#ff65c2"
+          font-family="monospace"
+          font-size="12">
+      DEEP LEARNING / VISION
+    </text>
+
+    <text x="25"
+          y="112"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      Computer vision system for
+    </text>
+
+    <text x="25"
+          y="133"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      satellite image intelligence.
+    </text>
+
+    <line x1="25"
+          y1="158"
+          x2="305"
+          y2="158"
+          stroke="#26364c"/>
+
+    <text x="25"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      PYTHON
+    </text>
+
+    <text x="100"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      CNN
+    </text>
+
+    <text x="150"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      CV
+    </text>
+
+    <text x="25"
+          y="220"
+          fill="#667892"
+          font-family="monospace"
+          font-size="11">
+      IMAGE INTELLIGENCE
+    </text>
+
+    <circle cx="270" cy="225" r="25"
+            fill="none"
+            stroke="#ff4fba"
+            opacity=".25"/>
+
+    <circle cx="270" cy="225" r="5"
+            fill="#ff4fba"
+            filter="url(#glow)"/>
+
+  </g>
+
+
+  <!-- PROJECT 03 -->
+  <g transform="translate(810 175)">
+
+    <rect width="330"
+          height="270"
+          rx="18"
+          fill="#0d1420"
+          stroke="#26364c"
+          stroke-width="1.5"/>
+
+    <rect width="330"
+          height="4"
+          rx="2"
+          fill="url(#cyan)"/>
+
+    <circle cx="28" cy="32" r="7"
+            fill="#8c7bff"
+            filter="url(#glow)"/>
+
+    <text x="48"
+          y="39"
+          fill="#ffffff"
+          font-family="Arial"
+          font-size="21"
+          font-weight="700">
+      DOCUMENT VAULT
+    </text>
+
+    <text x="25"
+          y="76"
+          fill="#7f91ff"
+          font-family="monospace"
+          font-size="12">
+      DECENTRALIZED / SECURITY
+    </text>
+
+    <text x="25"
+          y="112"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      Ownership and verification
+    </text>
+
+    <text x="25"
+          y="133"
+          fill="#aab7c8"
+          font-family="Arial"
+          font-size="14">
+      using blockchain infrastructure.
+    </text>
+
+    <line x1="25"
+          y1="158"
+          x2="305"
+          y2="158"
+          stroke="#26364c"/>
+
+    <text x="25"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      ETHEREUM
+    </text>
+
+    <text x="115"
+          y="188"
+          fill="#ffffff"
+          font-family="monospace"
+          font-size="12">
+      SOLIDITY
+    </text>
+
+    <text x="25"
+          y="220"
+          fill="#667892"
+          font-family="monospace"
+          font-size="11">
+      DIGITAL OWNERSHIP
+    </text>
+
+    <circle cx="270" cy="225" r="25"
+            fill="none"
+            stroke="#7f91ff"
+            opacity=".25"/>
+
+    <circle cx="270" cy="225" r="5"
+            fill="#7f91ff"
+            filter="url(#glow)"/>
+
+  </g>
+
+  <!-- BOTTOM LINE -->
+  <line x1="60"
+        y1="480"
+        x2="1140"
+        y2="480"
+        stroke="#26364c"/>
+
+  <text x="60"
+        y="505"
+        fill="#52627a"
+        font-family="monospace"
+        font-size="11">
+    MORE SYSTEMS IN DEVELOPMENT...
+  </text>
+
 </svg>
