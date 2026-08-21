@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<defs><linearGradient id="e" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#7c4dff"/><stop offset="1" stop-color="#ff3cac"/></linearGradient></defs>
+<rect width="1200" height="500" rx="24" fill="#0b1018"/>
+<text x="600" y="52" fill="#f5f7fb" font-family="Arial" font-size="29" font-weight="700" text-anchor="middle">ENGINEERING MINDSET // FROM PROBLEM TO SYSTEM</text>
+<g font-family="Arial" text-anchor="middle">
+<g stroke="url(#e)" stroke-width="3" fill="none"><path d="M600 135V175M600 250V290M350 330H850M350 330V380M600 330V380M850 330V380"/></g>
+<g><rect x="450" y="80" width="300" height="70" rx="18" fill="#101827" stroke="#00e5ff" stroke-width="2"/><text x="600" y="110" fill="#00e5ff" font-size="16" font-weight="700">01 // REAL PROBLEM</text><text x="600" y="133" fill="#9fb0c6" font-size="13">Who needs this? Why does it matter?</text></g>
+<g><rect x="450" y="195" width="300" height="70" rx="18" fill="#101827" stroke="#7c4dff" stroke-width="2"/><text x="600" y="225" fill="#a78bff" font-size="16" font-weight="700">02 // SYSTEM ARCHITECTURE</text><text x="600" y="248" fill="#9fb0c6" font-size="13">Data · models · APIs · trust · deployment</text></g>
+<g><rect x="190" y="380" width="320" height="75" rx="18" fill="#101827" stroke="#00e5ff"/><text x="350" y="410" fill="#00e5ff" font-size="16" font-weight="700">AI / ML</text><text x="350" y="433" fill="#9fb0c6" font-size="13">Intelligence and prediction</text></g>
+<g><rect x="440" y="380" width="320" height="75" rx="18" fill="#101827" stroke="#7c4dff"/><text x="600" y="410" fill="#a78bff" font-size="16" font-weight="700">SOFTWARE</text><text x="600" y="433" fill="#9fb0c6" font-size="13">Scale, interfaces and reliability</text></g>
+<g><rect x="690" y="380" width="320" height="75" rx="18" fill="#101827" stroke="#ff3cac"/><text x="850" y="410" fill="#ff70c5" font-size="16" font-weight="700">WEB3 / TRUST</text><text x="850" y="433" fill="#9fb0c6" font-size="13">Ownership, verification and transparency</text></g>
+</g></svg>

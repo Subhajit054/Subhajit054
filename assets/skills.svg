@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+ <linearGradient id="g" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#7c4dff"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="620" rx="24" fill="#0b1018"/>
+<g stroke="#253247" opacity=".55">
+ <path d="M60 120H1140M60 250H1140M60 380H1140M60 510H1140"/>
+</g>
+<text x="600" y="58" fill="#f5f7fb" font-family="Arial" font-size="30" font-weight="700" text-anchor="middle">NEURAL STACK // SYSTEM CAPABILITIES</text>
+<text x="600" y="88" fill="#8ea2bd" font-family="Arial" font-size="15" text-anchor="middle">Technologies connected by what they enable — not by a percentage.</text>
+<g font-family="Arial" text-anchor="middle">
+ <g filter="url(#glow)"><circle cx="600" cy="315" r="76" fill="#111c2c" stroke="url(#g)" stroke-width="4"/></g>
+ <text x="600" y="306" fill="#fff" font-size="24" font-weight="700">SUBHAJIT</text><text x="600" y="333" fill="#00e5ff" font-size="17">AI × SOFTWARE × WEB3</text>
+ <g stroke="url(#g)" stroke-width="3" fill="none">
+  <path d="M540 270L210 165M660 270L990 165M525 330L210 445M675 330L990 445"/>
+ </g>
+ <g>
+  <rect x="70" y="115" width="280" height="105" rx="18" fill="#101827" stroke="#00e5ff"/>
+  <text x="210" y="145" fill="#00e5ff" font-size="18" font-weight="700">AI / ML</text>
+  <text x="210" y="174" fill="#e6edf7" font-size="14">Python · PyTorch · TensorFlow</text>
+  <text x="210" y="197" fill="#9fb0c6" font-size="13">ML · DL · CV · NLP</text>
+ </g>
+ <g>
+  <rect x="850" y="115" width="280" height="105" rx="18" fill="#101827" stroke="#ff3cac"/>
+  <text x="990" y="145" fill="#ff5bbd" font-size="18" font-weight="700">GENERATIVE AI</text>
+  <text x="990" y="174" fill="#e6edf7" font-size="14">LLMs · RAG · Embeddings</text>
+  <text x="990" y="197" fill="#9fb0c6" font-size="13">LangChain · LangGraph · Vector DB</text>
+ </g>
+ <g>
+  <rect x="70" y="395" width="280" height="105" rx="18" fill="#101827" stroke="#7c4dff"/>
+  <text x="210" y="425" fill="#a78bff" font-size="18" font-weight="700">FULL-STACK</text>
+  <text x="210" y="454" fill="#e6edf7" font-size="14">React · Next.js · FastAPI</text>
+  <text x="210" y="477" fill="#9fb0c6" font-size="13">REST · DB · Cloud · Deployment</text>
+ </g>
+ <g>
+  <rect x="850" y="395" width="280" height="105" rx="18" fill="#101827" stroke="#00d69b"/>
+  <text x="990" y="425" fill="#00e5a0" font-size="18" font-weight="700">BLOCKCHAIN</text>
+  <text x="990" y="454" fill="#e6edf7" font-size="14">Solidity · Ethereum · Web3</text>
+  <text x="990" y="477" fill="#9fb0c6" font-size="13">Smart Contracts · dApps</text>
+ </g>
+</g>
+</svg>

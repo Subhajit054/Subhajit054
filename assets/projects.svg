@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs><linearGradient id="p" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".55" stop-color="#7c4dff"/><stop offset="1" stop-color="#ff3cac"/></linearGradient></defs>
+<rect width="1200" height="760" rx="24" fill="#0b1018"/>
+<text x="600" y="55" fill="#f5f7fb" font-family="Arial" font-size="30" font-weight="700" text-anchor="middle">PROJECT UNIVERSE // SYSTEMS I BUILD</text>
+<text x="600" y="82" fill="#8ea2bd" font-family="Arial" font-size="15" text-anchor="middle">Real-world problems translated into intelligent software systems.</text>
+<g font-family="Arial">
+ <g><rect x="50" y="120" width="530" height="250" rx="20" fill="#101827" stroke="#00e5ff" stroke-width="2"/>
+ <text x="80" y="160" fill="#ff4f79" font-size="24" font-weight="700">● BLOODGRID</text>
+ <text x="80" y="190" fill="#00e5ff" font-size="15" font-weight="700">BLOCKCHAIN × HEALTHCARE × REAL-TIME</text>
+ <text x="80" y="225" fill="#e6edf7" font-size="15">Emergency blood-response architecture</text>
+ <text x="80" y="250" fill="#9fb0c6" font-size="13">Donors → Hospitals → Availability → Logistics</text>
+ <rect x="80" y="280" width="120" height="36" rx="10" fill="#0d2230" stroke="#00e5ff"/><text x="140" y="303" text-anchor="middle" fill="#00e5ff" font-size="12">SOLIDITY</text>
+ <rect x="210" y="280" width="100" height="36" rx="10" fill="#0d2230" stroke="#00e5ff"/><text x="260" y="303" text-anchor="middle" fill="#00e5ff" font-size="12">WEB3</text>
+ <rect x="320" y="280" width="100" height="36" rx="10" fill="#0d2230" stroke="#00e5ff"/><text x="370" y="303" text-anchor="middle" fill="#00e5ff" font-size="12">REACT</text>
+ </g>
+ <g><rect x="620" y="120" width="530" height="250" rx="20" fill="#101827" stroke="#ff3cac" stroke-width="2"/>
+ <text x="650" y="160" fill="#ff70c5" font-size="24" font-weight="700">● MEDSWAP AI</text>
+ <text x="650" y="190" fill="#ff70c5" font-size="15" font-weight="700">VISION AI × NLP × HEALTHCARE</text>
+ <text x="650" y="225" fill="#e6edf7" font-size="15">Prescription understanding pipeline</text>
+ <text x="650" y="250" fill="#9fb0c6" font-size="13">Image → OCR → Medicine understanding → Structured output</text>
+ <rect x="650" y="280" width="95" height="36" rx="10" fill="#241228" stroke="#ff3cac"/><text x="697" y="303" text-anchor="middle" fill="#ff70c5" font-size="12">OCR</text>
+ <rect x="755" y="280" width="95" height="36" rx="10" fill="#241228" stroke="#ff3cac"/><text x="802" y="303" text-anchor="middle" fill="#ff70c5" font-size="12">NLP</text>
+ <rect x="860" y="280" width="95" height="36" rx="10" fill="#241228" stroke="#ff3cac"/><text x="907" y="303" text-anchor="middle" fill="#ff70c5" font-size="12">FASTAPI</text>
+ </g>
+ <g><rect x="50" y="410" width="530" height="250" rx="20" fill="#101827" stroke="#7c4dff" stroke-width="2"/>
+ <text x="80" y="450" fill="#a78bff" font-size="24" font-weight="700">● SATELLITE AI</text>
+ <text x="80" y="480" fill="#a78bff" font-size="15" font-weight="700">DEEP LEARNING × COMPUTER VISION</text>
+ <text x="80" y="515" fill="#e6edf7" font-size="15">Image classification for satellite imagery</text>
+ <text x="80" y="540" fill="#9fb0c6" font-size="13">Dataset → preprocessing → neural network → prediction</text>
+ <rect x="80" y="570" width="125" height="36" rx="10" fill="#17132b" stroke="#7c4dff"/><text x="142" y="593" text-anchor="middle" fill="#a78bff" font-size="12">PYTORCH</text>
+ <rect x="215" y="570" width="125" height="36" rx="10" fill="#17132b" stroke="#7c4dff"/><text x="277" y="593" text-anchor="middle" fill="#a78bff" font-size="12">COMPUTER VISION</text>
+ </g>
+ <g><rect x="620" y="410" width="530" height="250" rx="20" fill="#101827" stroke="#00d69b" stroke-width="2"/>
+ <text x="650" y="450" fill="#00e5a0" font-size="24" font-weight="700">● CORTEX / SYSTEMS</text>
+ <text x="650" y="480" fill="#00e5a0" font-size="15" font-weight="700">AI × RAG × KNOWLEDGE SYSTEMS</text>
+ <text x="650" y="515" fill="#e6edf7" font-size="15">Exploring intelligent, context-aware software</text>
+ <text x="650" y="540" fill="#9fb0c6" font-size="13">LLMs → retrieval → reasoning → useful action</text>
+ <rect x="650" y="570" width="95" height="36" rx="10" fill="#0d241d" stroke="#00d69b"/><text x="697" y="593" text-anchor="middle" fill="#00e5a0" font-size="12">RAG</text>
+ <rect x="755" y="570" width="120" height="36" rx="10" fill="#0d241d" stroke="#00d69b"/><text x="815" y="593" text-anchor="middle" fill="#00e5a0" font-size="12">VECTOR DB</text>
+ </g>
+</g></svg>
